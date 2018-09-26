@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27825.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FvadoCodeChallenge", "FvadoCodeChallenge\FvadoCodeChallenge.csproj", "{53D76214-583F-47B8-A4DD-AFEFD7243476}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Web", "01-Web", "{7DFFEE15-84E5-4F1F-B937-D372FE45509A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00-Models", "00-Models", "{291CE0DE-12DD-4B08-AEC2-D6806B0B56B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{D61E4917-B775-48A3-B42F-8E7BC39E90E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{D26D7A92-3000-4E74-B066-EDF5561DC3C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FvadoCodeChallengeAPI", "FvadoCodeChallengeAPI\FvadoCodeChallengeAPI.csproj", "{5B760AD2-3C72-4631-9AB6-308CAFFEA950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53D76214-583F-47B8-A4DD-AFEFD7243476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D76214-583F-47B8-A4DD-AFEFD7243476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D76214-583F-47B8-A4DD-AFEFD7243476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D76214-583F-47B8-A4DD-AFEFD7243476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61E4917-B775-48A3-B42F-8E7BC39E90E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61E4917-B775-48A3-B42F-8E7BC39E90E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61E4917-B775-48A3-B42F-8E7BC39E90E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61E4917-B775-48A3-B42F-8E7BC39E90E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B760AD2-3C72-4631-9AB6-308CAFFEA950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B760AD2-3C72-4631-9AB6-308CAFFEA950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B760AD2-3C72-4631-9AB6-308CAFFEA950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B760AD2-3C72-4631-9AB6-308CAFFEA950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53D76214-583F-47B8-A4DD-AFEFD7243476} = {7DFFEE15-84E5-4F1F-B937-D372FE45509A}
+		{D61E4917-B775-48A3-B42F-8E7BC39E90E7} = {291CE0DE-12DD-4B08-AEC2-D6806B0B56B4}
+		{5B760AD2-3C72-4631-9AB6-308CAFFEA950} = {D26D7A92-3000-4E74-B066-EDF5561DC3C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87682B42-D643-45B8-8D32-F91B4C428F34}
+	EndGlobalSection
+EndGlobal
