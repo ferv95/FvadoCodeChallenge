@@ -2,6 +2,7 @@
 import { phoneModel } from "../../models/phoneModel";
 import { PhoneDetail } from '../phoneDetail/phoneDetail';
 import { PhoneListItem } from '../phoneListItem/phoneListItem';
+import * as shallowequal from 'shallowequal';
 
 interface IProps {
     phones: phoneModel[];
@@ -25,6 +26,12 @@ export class PhoneList extends React.Component<IProps, IState>{
             selectedPhone: '',
             currentScreen: 'list',
         })
+    }
+
+    shouldComponentUpdate(nextProps: IProps, nextState: IState) {
+
+        return !shallowequal(this.props, nextProps) || !shallowequal(this.state, nextState);
+
     }
 
     renderComponent = () => {
