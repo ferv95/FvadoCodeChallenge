@@ -16,7 +16,7 @@ namespace CodeChallengeFVado.API
     {
         public IEnumerable<PhoneModel> GetPhones()
         {
-            Thread.Sleep(3000);
+            Thread.Sleep(1250);
             return PhoneMockData.GetMockPhones();
         }
 
